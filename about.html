@@ -1,17 +1,98 @@
-<html>
-<head>
-    <title>Staff Application</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover' />
-    <link rel="stylesheet" href="/Files/forward.css">
-    <style>
-    </style>
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1B1B1B">
+    <title>Onlineking24 SMP</title>
+<link rel="icon" type="image/png" href="https://onlineking24.netlify.app/files/20220616_121236.png">
+<link rel="stylesheet" href="files/bootstrap.min.css" />
+<link rel="stylesheet" href="files/main_about.css" />
+<link rel="stylesheet" href="files/style.css" />
+<link rel="stylesheet" href="files/css.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/22175898.js"></script>
+<!-- End of HubSpot Embed Code -->
+<script type="text/javascript">
+    
+    $(document).ready(function(){
+      //jquery for toggle sub menus
+      $('.sub-btn').click(function(){
+        $(this).next('.sub-menu').slideToggle();
+        $(this).find('.dropdown').toggleClass('rotate');
+      });
+
+      //jquery for expand and collapse the sidebar
+      $('.menu-btn').click(function(){
+        $('.side-bar').addClass('active');
+        $('.menu-btn').css("visibility", "hidden");
+      });
+
+      $('.close-btn').click(function(){
+        $('.side-bar').removeClass('active');
+        $('.menu-btn').css("visibility", "visible");
+      });
+    });
+    </script>
+
 </head>
 <body>
-    <div id="container">
-        <iframe id="frame" src="https://onlineking24.netlify.app/about.html" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="yes" frameborder="100">
-        </iframe>
-    </div>
-    
-    	
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+          <br>
+<div class="menu-btn">
+      <i class="fas fa-bars"></i>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+        </div>
+      </div>
+          </div>
+    <div class="side-bar">
+      <div class="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
 
-<script src="//cdn.jsdelivr.net/npm/eruda"></script></body>
+      <div class="menu">
+        <div class="item"><a href="https://onlineking24.netlify.app/"><i class="fas fa-home"></i>Home</a></div>
+        <div class="item"><a href="https://onlineking24.netlify.app/rules"><i class="fas fa-book"></i>Rules</a></div>
+     <div class="item"><a href="https://onlineking24.netlify.app/about"><i class="fas fa-info-circle"></i>About</a></div>
+    <div class="item"><a href="https://onlineking24.netlify.app/player_list"><i class="fas fa-users"></i>Members</a></div>
+    <div class="item"><a href="https://onlineking24.netlify.app/live_status"><i class="fas fa-desktop"></i>Live Status</a></div>
+        
+    </nav>
+    
+    
+<div class="hero-image">
+  <div class="hero-text">
+  	<font face="Minercraftory" size="6px">About</font>
+<br><br>
+	<button onclick = "window.location.href='minecraft://?addExternalServer=OnlineKing24 SMP|play.onlineking24.us.to:30490';" class="button-85" role="button">Join Now</button>
+  </div>
+</div>
+<div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+<h4 class="display-4">  About!</h4>
+<p class="lead">OnlineKing24 SMP is a popular Minecraft Bedrock Server that offers a unique multiplayer experience for players around the world. The server is run by a dedicated team of experienced administrators who are committed to providing a safe, fun, and engaging environment for players to explore, build, and interact with one another.
+</p>
+<p class="lead">One of the key features of OnlineKing24 SMP is its vibrant and welcoming community. The server has a friendly and supportive player base, who are always willing to help newcomers and offer guidance on gameplay and server rules</p>
+
+<p class="lead">Our server has been running since May 31st, 2021, and the most important fact about our SMP is that its second name is Teddy SMP, provided by our Co-Owner. Our SMP has 115 members and 5 staffs</p>
+
+<p class="lead">Overall, OnlineKing24 SMP is a fantastic Minecraft Bedrock Server that offers a dynamic and engaging multiplayer experience for players of all skill levels. Its welcoming community, range of game modes, and unique features make it a must-try for anyone looking for a new Minecraft server to join.
+</p>
+<div>
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 180) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
